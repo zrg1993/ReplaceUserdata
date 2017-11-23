@@ -1,0 +1,4724 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.3-SNAPSHOT), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.0.6]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://www.hozo.jp/rdf/startuplife.xml",
+      "http://www.hozo.jp/rdf",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2001/XMLSchema"
+    ],
+    "iri": "No IRI set"
+  },
+  "namespace": [],
+  "metrics": {
+    "classCount": 110,
+    "objectPropertyCount": 22,
+    "datatypePropertyCount": 0,
+    "individualCount": 0
+  },
+  "settings": {
+    "global": {
+      "zoom": 1.269,
+      "translation": [
+        -360.8903999999998,
+        -170.68049999999994
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "2"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "14",
+      "type": "owl:Class"
+    },
+    {
+      "id": "24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "26",
+      "type": "owl:Class"
+    },
+    {
+      "id": "19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "54",
+      "type": "owl:Class"
+    },
+    {
+      "id": "55",
+      "type": "owl:Class"
+    },
+    {
+      "id": "17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "70",
+      "type": "owl:Class"
+    },
+    {
+      "id": "71",
+      "type": "owl:Class"
+    },
+    {
+      "id": "36",
+      "type": "owl:Class"
+    },
+    {
+      "id": "73",
+      "type": "owl:Class"
+    },
+    {
+      "id": "16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "74",
+      "type": "owl:Class"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "78",
+      "type": "owl:Class"
+    },
+    {
+      "id": "7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "82",
+      "type": "owl:Class"
+    },
+    {
+      "id": "84",
+      "type": "owl:Class"
+    },
+    {
+      "id": "85",
+      "type": "owl:Class"
+    },
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "52",
+      "type": "owl:Class"
+    },
+    {
+      "id": "91",
+      "type": "owl:Class"
+    },
+    {
+      "id": "47",
+      "type": "owl:Class"
+    },
+    {
+      "id": "93",
+      "type": "owl:Class"
+    },
+    {
+      "id": "86",
+      "type": "owl:Class"
+    },
+    {
+      "id": "53",
+      "type": "owl:Class"
+    },
+    {
+      "id": "23",
+      "type": "owl:Class"
+    },
+    {
+      "id": "94",
+      "type": "owl:Class"
+    },
+    {
+      "id": "62",
+      "type": "owl:Class"
+    },
+    {
+      "id": "99",
+      "type": "owl:Class"
+    },
+    {
+      "id": "98",
+      "type": "owl:Class"
+    },
+    {
+      "id": "96",
+      "type": "owl:Class"
+    },
+    {
+      "id": "100",
+      "type": "owl:Class"
+    },
+    {
+      "id": "87",
+      "type": "owl:Class"
+    },
+    {
+      "id": "101",
+      "type": "owl:Class"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "103",
+      "type": "owl:Class"
+    },
+    {
+      "id": "34",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "106",
+      "type": "owl:Class"
+    },
+    {
+      "id": "108",
+      "type": "owl:Class"
+    },
+    {
+      "id": "20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "109",
+      "type": "owl:Class"
+    },
+    {
+      "id": "37",
+      "type": "owl:Class"
+    },
+    {
+      "id": "28",
+      "type": "owl:Class"
+    },
+    {
+      "id": "66",
+      "type": "owl:Class"
+    },
+    {
+      "id": "110",
+      "type": "owl:Class"
+    },
+    {
+      "id": "95",
+      "type": "owl:Class"
+    },
+    {
+      "id": "107",
+      "type": "owl:Class"
+    },
+    {
+      "id": "122",
+      "type": "owl:Class"
+    },
+    {
+      "id": "5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "75",
+      "type": "owl:Class"
+    },
+    {
+      "id": "132",
+      "type": "owl:Class"
+    },
+    {
+      "id": "21",
+      "type": "owl:Class"
+    },
+    {
+      "id": "81",
+      "type": "owl:Class"
+    },
+    {
+      "id": "65",
+      "type": "owl:Class"
+    },
+    {
+      "id": "88",
+      "type": "owl:Class"
+    },
+    {
+      "id": "68",
+      "type": "owl:Class"
+    },
+    {
+      "id": "152",
+      "type": "owl:Class"
+    },
+    {
+      "id": "56",
+      "type": "owl:Class"
+    },
+    {
+      "id": "80",
+      "type": "owl:Class"
+    },
+    {
+      "id": "43",
+      "type": "owl:Class"
+    },
+    {
+      "id": "124",
+      "type": "owl:Class"
+    },
+    {
+      "id": "58",
+      "type": "owl:Class"
+    },
+    {
+      "id": "121",
+      "type": "owl:Class"
+    },
+    {
+      "id": "41",
+      "type": "owl:Class"
+    },
+    {
+      "id": "161",
+      "type": "owl:Class"
+    },
+    {
+      "id": "119",
+      "type": "owl:Class"
+    },
+    {
+      "id": "49",
+      "type": "owl:Class"
+    },
+    {
+      "id": "69",
+      "type": "owl:Class"
+    },
+    {
+      "id": "89",
+      "type": "owl:Class"
+    },
+    {
+      "id": "150",
+      "type": "owl:Class"
+    },
+    {
+      "id": "147",
+      "type": "owl:Class"
+    },
+    {
+      "id": "31",
+      "type": "owl:Class"
+    },
+    {
+      "id": "182",
+      "type": "owl:Class"
+    },
+    {
+      "id": "104",
+      "type": "owl:Class"
+    },
+    {
+      "id": "39",
+      "type": "owl:Class"
+    },
+    {
+      "id": "166",
+      "type": "owl:Class"
+    },
+    {
+      "id": "83",
+      "type": "owl:Class"
+    },
+    {
+      "id": "188",
+      "type": "owl:Class"
+    },
+    {
+      "id": "18",
+      "type": "owl:Class"
+    },
+    {
+      "id": "22",
+      "type": "owl:Class"
+    },
+    {
+      "id": "118",
+      "type": "owl:Class"
+    },
+    {
+      "id": "197",
+      "type": "owl:Class"
+    },
+    {
+      "id": "200",
+      "type": "owl:Class"
+    },
+    {
+      "id": "60",
+      "type": "owl:Class"
+    },
+    {
+      "id": "45",
+      "type": "owl:Class"
+    },
+    {
+      "id": "214",
+      "type": "owl:Class"
+    },
+    {
+      "id": "64",
+      "type": "owl:Class"
+    },
+    {
+      "id": "144",
+      "type": "owl:Class"
+    },
+    {
+      "id": "165",
+      "type": "owl:Class"
+    },
+    {
+      "id": "114",
+      "type": "owl:Class"
+    },
+    {
+      "id": "12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "145",
+      "type": "owl:Class"
+    },
+    {
+      "id": "32",
+      "type": "owl:Class"
+    },
+    {
+      "id": "191",
+      "type": "owl:Class"
+    },
+    {
+      "id": "123",
+      "type": "owl:Class"
+    },
+    {
+      "id": "146",
+      "type": "owl:Class"
+    },
+    {
+      "id": "67",
+      "type": "owl:Class"
+    },
+    {
+      "id": "79",
+      "type": "owl:Class"
+    },
+    {
+      "id": "186",
+      "type": "owl:Class"
+    },
+    {
+      "id": "29",
+      "type": "owl:Class"
+    },
+    {
+      "id": "105",
+      "type": "owl:Class"
+    },
+    {
+      "id": "167",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#bank",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "bank",
+        "undefined": "bank"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "0",
+      "superClasses": [
+        "1"
+      ],
+      "pos": [
+        1558.8954347860977,
+        1684.8182199993144
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Make_fire_insurance_contract",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Make_fire_insurance_contract",
+        "undefined": "Make fire insurance contract"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "2",
+      "superClasses": [
+        "3"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Transportaion",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Transportaion",
+        "undefined": "Transportaion"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "4",
+      "superClasses": [
+        "5"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Go_to_phone_shop",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Go_to_phone_shop",
+        "undefined": "Go to phone shop"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "6",
+      "superClasses": [
+        "7"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#app",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "app",
+        "undefined": "app"
+      },
+      "subClasses": [
+        "10",
+        "11",
+        "12"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "8",
+      "superClasses": [
+        "9"
+      ],
+      "pos": [
+        585.787144776228,
+        699.2759658307812
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Job_hunting_activity",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Job_hunting_activity",
+        "undefined": "Job hunting activity"
+      },
+      "subClasses": [
+        "15",
+        "16"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "13",
+      "superClasses": [
+        "14"
+      ],
+      "pos": [
+        1982.9834368448417,
+        763.7967293686893
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Activity",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Activity",
+        "undefined": "Activity"
+      },
+      "subClasses": [
+        "18",
+        "3",
+        "7",
+        "19",
+        "13",
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "14",
+      "superClasses": [
+        "17"
+      ],
+      "pos": [
+        1513.7188360698137,
+        673.6102757940544
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Entertainment",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Entertainment",
+        "undefined": "Entertainment"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "24",
+      "superClasses": [
+        "5"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Get_visa",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Get_visa",
+        "undefined": "Get visa"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "25",
+      "superClasses": [
+        "26"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Apply_for_official_certification",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Apply_for_official_certification",
+        "undefined": "Apply for official certification"
+      },
+      "subClasses": [
+        "25"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "26",
+      "superClasses": [
+        "23"
+      ],
+      "pos": [
+        534.3262610093589,
+        148.72842072572496
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Transportation_Activity",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Transportation_Activity",
+        "undefined": "Transportation Activity"
+      },
+      "subClasses": [
+        "53",
+        "37"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "19",
+      "superClasses": [
+        "14"
+      ],
+      "pos": [
+        2173.0053939175086,
+        833.375861738435
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#send_by_post",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "send_by_post",
+        "undefined": "send by post"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "54",
+      "superClasses": [
+        "22"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#dorm",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "dorm",
+        "undefined": "dorm"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "55",
+      "superClasses": [
+        "56"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Any",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Any",
+        "undefined": "Any"
+      },
+      "subClasses": [
+        "66",
+        "9",
+        "67",
+        "68",
+        "69",
+        "52",
+        "14",
+        "5"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "17",
+      "superClasses": [
+        "65"
+      ],
+      "pos": [
+        1486.4009647670434,
+        502.43918944661226
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#company",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "company",
+        "undefined": "company"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "70",
+      "superClasses": [
+        "1"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Walk",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Walk",
+        "undefined": "Walk"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "71",
+      "superClasses": [
+        "53"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Take_train",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Take_train",
+        "undefined": "Take train"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "36",
+      "superClasses": [
+        "37"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Shopping",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Shopping",
+        "undefined": "Shopping"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "73",
+      "superClasses": [
+        "5"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Find_a_part-time_job",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Find_a_part-time_job",
+        "undefined": "Find a part-time job"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "16",
+      "superClasses": [
+        "13"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#car",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "car",
+        "undefined": "car"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "74",
+      "superClasses": [
+        "75"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#shopping",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "shopping",
+        "undefined": "shopping"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "10",
+      "superClasses": [
+        "8"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Money",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Money",
+        "undefined": "Money"
+      },
+      "subClasses": [
+        "79",
+        "80"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "78",
+      "superClasses": [
+        "9"
+      ],
+      "pos": [
+        488.3718013862997,
+        907.2457827606632
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Move_to",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Move_to",
+        "undefined": "Move to"
+      },
+      "subClasses": [
+        "81",
+        "6"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "7",
+      "superClasses": [
+        "14"
+      ],
+      "pos": [
+        1645.1477204809053,
+        1253.6673711101478
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#PC",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PC",
+        "undefined": "PC"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "82",
+      "superClasses": [
+        "83"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#bike",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "bike",
+        "undefined": "bike"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "84",
+      "superClasses": [
+        "75"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Make_electricity_power_aggreement",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Make_electricity_power_aggreement",
+        "undefined": "Make electricity power aggreement"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "85",
+      "superClasses": [
+        "3"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Make_contract",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Make_contract",
+        "undefined": "Make contract"
+      },
+      "subClasses": [
+        "86",
+        "2",
+        "85",
+        "87"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "3",
+      "superClasses": [
+        "14"
+      ],
+      "pos": [
+        1922.7088828254698,
+        928.5730961936239
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Entity",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Entity",
+        "undefined": "Entity"
+      },
+      "subClasses": [
+        "8",
+        "88",
+        "78",
+        "75",
+        "1",
+        "56",
+        "89",
+        "83",
+        "32"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "9",
+      "superClasses": [
+        "17"
+      ],
+      "pos": [
+        947.5669018605374,
+        972.6727845310404
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#People",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "People",
+        "undefined": "People"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "52",
+      "superClasses": [
+        "17"
+      ],
+      "pos": [
+        1349.4282336878682,
+        966.4744398888786
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#international_money_transfer",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "international_money_transfer",
+        "undefined": "international money transfer"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "91",
+      "superClasses": [
+        "18"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#different",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "different",
+        "undefined": "different"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "47",
+      "superClasses": [
+        "29"
+      ],
+      "pos": [
+        1803.7726419119804,
+        -488.4388063717874
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Draw_money",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Draw_money",
+        "undefined": "Draw money"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "93",
+      "superClasses": [
+        "18"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Make_house_rental_contract",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Make_house_rental_contract",
+        "undefined": "Make house rental contract"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "86",
+      "superClasses": [
+        "3"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Private_transportion_Activity",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Private_transportion_Activity",
+        "undefined": "Private transportion Activity"
+      },
+      "subClasses": [
+        "94",
+        "71",
+        "95"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "53",
+      "superClasses": [
+        "19"
+      ],
+      "pos": [
+        2579.632092684599,
+        824.931829151343
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Apply",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Apply",
+        "undefined": "Apply"
+      },
+      "subClasses": [
+        "96",
+        "26"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "23",
+      "superClasses": [
+        "14"
+      ],
+      "pos": [
+        934.0899154741229,
+        301.4792248970891
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Ride_bike",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Ride_bike",
+        "undefined": "Ride bike"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "94",
+      "superClasses": [
+        "53"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Rent_Transportation_tool",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Rent_Transportation_tool",
+        "undefined": "Rent Transportation tool"
+      },
+      "subClasses": [
+        "98"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "62",
+      "superClasses": [
+        "20"
+      ],
+      "pos": [
+        1148.622846926924,
+        -299.08476331845714
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Resident_card",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Resident_card",
+        "undefined": "Resident card"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "99",
+      "superClasses": [
+        "89"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Rent_car",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Rent_car",
+        "undefined": "Rent car"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "98",
+      "superClasses": [
+        "62"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Apply_for_financial_card",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Apply_for_financial_card",
+        "undefined": "Apply for financial card"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "96",
+      "superClasses": [
+        "23"
+      ],
+      "pos": [
+        722.835972318779,
+        -58.724829230641376
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#exit-entry_administration",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "exit-entry_administration",
+        "undefined": "exit-entry administration"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "100",
+      "superClasses": [
+        "60"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Make_phone_contract",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Make_phone_contract",
+        "undefined": "Make phone contract"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "87",
+      "superClasses": [
+        "3"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#heath_insurance_card",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "heath_insurance_card",
+        "undefined": "heath insurance card"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "101",
+      "superClasses": [
+        "89"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Find_a_formal_job",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Find_a_formal_job",
+        "undefined": "Find a formal job"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "15",
+      "superClasses": [
+        "13"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#rent_house",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "rent_house",
+        "undefined": "rent house"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "103",
+      "superClasses": [
+        "56"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Fire_insurance",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Fire_insurance",
+        "undefined": "Fire insurance"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "34",
+      "superClasses": [
+        "32"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Organization",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Organization",
+        "undefined": "Organization"
+      },
+      "subClasses": [
+        "0",
+        "104",
+        "70",
+        "105",
+        "60",
+        "58"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "1",
+      "superClasses": [
+        "9"
+      ],
+      "pos": [
+        1203.9612263830277,
+        1501.6086283229629
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#map",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "map",
+        "undefined": "map"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "11",
+      "superClasses": [
+        "8"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#normal_job",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "normal_job",
+        "undefined": "normal job"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "106",
+      "superClasses": [
+        "107"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#wearable_device",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "wearable_device",
+        "undefined": "wearable device"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "108",
+      "superClasses": [
+        "83"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Rent",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Rent",
+        "undefined": "Rent"
+      },
+      "subClasses": [
+        "62",
+        "64"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "20",
+      "superClasses": [
+        "14"
+      ],
+      "pos": [
+        1325.6795899674253,
+        96.2152998201282
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#use_chat_app",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "use_chat_app",
+        "undefined": "use chat app"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "109",
+      "superClasses": [
+        "22"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Public_transportion_activity",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Public_transportion_activity",
+        "undefined": "Public transportion activity"
+      },
+      "subClasses": [
+        "36",
+        "39"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "37",
+      "superClasses": [
+        "19"
+      ],
+      "pos": [
+        2523.488709685421,
+        1040.3016483130357
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#larger-than",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "larger-than",
+        "undefined": "larger-than"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "28",
+      "superClasses": [
+        "29"
+      ],
+      "pos": [
+        1795.720974419094,
+        128.63047207265953
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Context",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Context",
+        "undefined": "Context"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "66",
+      "superClasses": [
+        "17"
+      ],
+      "pos": [
+        1723.972798079356,
+        981.191562464718
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#student_card",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "student_card",
+        "undefined": "student card"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "110",
+      "superClasses": [
+        "89"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Drive_car",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Drive_car",
+        "undefined": "Drive car"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "95",
+      "superClasses": [
+        "53"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Work",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Work",
+        "undefined": "Work"
+      },
+      "subClasses": [
+        "119",
+        "106"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "107",
+      "superClasses": [
+        "5"
+      ],
+      "pos": [
+        1868.291300416383,
+        1481.1001492088255
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#apply_by_webpage",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "apply_by_webpage",
+        "undefined": "apply by webpage"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "122",
+      "superClasses": [
+        "22"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Service",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Service",
+        "undefined": "Service"
+      },
+      "subClasses": [
+        "123",
+        "124",
+        "4",
+        "107",
+        "73",
+        "24",
+        "121"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "5",
+      "superClasses": [
+        "17"
+      ],
+      "pos": [
+        1576.0799499295538,
+        1144.499691635593
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Transportation_tool",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Transportation_tool",
+        "undefined": "Transportation tool"
+      },
+      "subClasses": [
+        "84",
+        "74",
+        "118"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "75",
+      "superClasses": [
+        "9"
+      ],
+      "pos": [
+        514.3598667392014,
+        1126.4485486465537
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#icoca_card",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "icoca_card",
+        "undefined": "icoca card"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "132",
+      "superClasses": [
+        "88"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Make_an_appointment",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Make_an_appointment",
+        "undefined": "Make an appointment"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "21",
+      "superClasses": [
+        "14"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Go_to_city_hall",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Go_to_city_hall",
+        "undefined": "Go to city hall"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "81",
+      "superClasses": [
+        "7"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#WholnessConcept",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "WholnessConcept",
+        "undefined": "WholenessConcept"
+      },
+      "subClasses": [
+        "17"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "65"
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#payment_card",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "payment_card",
+        "undefined": "payment card"
+      },
+      "subClasses": [
+        "144",
+        "145",
+        "146",
+        "132",
+        "147"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "88",
+      "superClasses": [
+        "9"
+      ],
+      "pos": [
+        486.54879909673724,
+        1016.7787603806713
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Way",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Way",
+        "undefined": "Way"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "68",
+      "superClasses": [
+        "17"
+      ],
+      "pos": [
+        1171.8567866688059,
+        374.9770232972624
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#phone_call",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "phone_call",
+        "undefined": "phone call"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "152",
+      "superClasses": [
+        "22"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#House",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "House",
+        "undefined": "House"
+      },
+      "subClasses": [
+        "103",
+        "55"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "56",
+      "superClasses": [
+        "9"
+      ],
+      "pos": [
+        650.695134209793,
+        1315.961124304187
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Local_money",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Local_money",
+        "undefined": "Local money"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "80",
+      "superClasses": [
+        "78"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#next",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "next",
+        "undefined": "next"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "43",
+      "superClasses": [
+        "29"
+      ],
+      "pos": [
+        1886.8485462986139,
+        301.3845685738815
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Certification",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Certification",
+        "undefined": "Certification"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "124",
+      "superClasses": [
+        "5"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#university",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "university",
+        "undefined": "university"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "58",
+      "superClasses": [
+        "1"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Finance",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Finance",
+        "undefined": "Finance"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "121",
+      "superClasses": [
+        "5"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#equal",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "equal",
+        "undefined": "equal"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "41",
+      "superClasses": [
+        "29"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#tablet",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "tablet",
+        "undefined": "tablet"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "161",
+      "superClasses": [
+        "83"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#part-time_job",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "part-time_job",
+        "undefined": "part-time job"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "119",
+      "superClasses": [
+        "107"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#sameAs",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "sameAs",
+        "undefined": "sameAs"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "49",
+      "superClasses": [
+        "29"
+      ],
+      "pos": [
+        1905.000745499068,
+        -489.8618283948348
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Location",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Location",
+        "undefined": "Location"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "69",
+      "superClasses": [
+        "17"
+      ],
+      "pos": [
+        1336.4450453667826,
+        1137.8295225509237
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Official_certification",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Official_certification",
+        "undefined": "Official certification"
+      },
+      "subClasses": [
+        "150",
+        "101",
+        "110",
+        "99",
+        "166",
+        "167"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "89",
+      "superClasses": [
+        "9"
+      ],
+      "pos": [
+        568.3130243328039,
+        1230.6827933730553
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#gym_card",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "gym_card",
+        "undefined": "gym card"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "150",
+      "superClasses": [
+        "89"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#suika_card",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "suika_card",
+        "undefined": "suika card"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "147",
+      "superClasses": [
+        "88"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#health_insurance",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "health_insurance",
+        "undefined": "health insurance"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "31",
+      "superClasses": [
+        "32"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Pay",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Pay",
+        "undefined": "Pay"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "182",
+      "superClasses": [
+        "18"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#group",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "group",
+        "undefined": "group"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "104",
+      "superClasses": [
+        "1"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Take_bus",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Take_bus",
+        "undefined": "Take bus"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "39",
+      "superClasses": [
+        "37"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#passport",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "passport",
+        "undefined": "passport"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "166",
+      "superClasses": [
+        "89"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#digial_device",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "digial_device",
+        "undefined": "digial device"
+      },
+      "subClasses": [
+        "161",
+        "82",
+        "186",
+        "108"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "83",
+      "superClasses": [
+        "9"
+      ],
+      "pos": [
+        763.6319833490863,
+        1379.939466436972
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#city_hall",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "city_hall",
+        "undefined": "city hall"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "188",
+      "superClasses": [
+        "60"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Finance_activity",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Finance_activity",
+        "undefined": "Finance activity"
+      },
+      "subClasses": [
+        "182",
+        "93",
+        "191",
+        "91"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "18",
+      "superClasses": [
+        "14"
+      ],
+      "pos": [
+        1992.1831262844287,
+        614.3416036062738
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Communication_activity",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Communication_activity",
+        "undefined": "Communication activity"
+      },
+      "subClasses": [
+        "54",
+        "152",
+        "109",
+        "122",
+        "197"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "22",
+      "superClasses": [
+        "14"
+      ],
+      "pos": [
+        1960.6660651689372,
+        493.9590908666275
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#motor_bike",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "motor_bike",
+        "undefined": "motor bike"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "118",
+      "superClasses": [
+        "75"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#send_email",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "send_email",
+        "undefined": "send email"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "197",
+      "superClasses": [
+        "22"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#embassy",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "embassy",
+        "undefined": "embassy"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "200",
+      "superClasses": [
+        "60"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#goverment",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "goverment",
+        "undefined": "goverment"
+      },
+      "subClasses": [
+        "100",
+        "200",
+        "188"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "60",
+      "superClasses": [
+        "1"
+      ],
+      "pos": [
+        1086.0572870869123,
+        1885.8118262543555
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#not-equal",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "not-equal",
+        "undefined": "not-equal"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "45",
+      "superClasses": [
+        "29"
+      ]
+    },
+    {
+      "instances": 0,
+      "union": [
+        "9",
+        "69"
+      ],
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "id": "214",
+      "pos": [
+        1089.3889229504098,
+        730.8125418374145
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Rent_a_house",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Rent_a_house",
+        "undefined": "Rent a house"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "64",
+      "superClasses": [
+        "20"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#bank_card",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "bank_card",
+        "undefined": "bank card"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "144",
+      "superClasses": [
+        "88"
+      ]
+    },
+    {
+      "instances": 0,
+      "union": [
+        "47",
+        "49"
+      ],
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "id": "165",
+      "pos": [
+        1666.4050744058418,
+        -120.83144602241738
+      ]
+    },
+    {
+      "instances": 0,
+      "union": [
+        "96",
+        "68"
+      ],
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "id": "114",
+      "pos": [
+        1099.5802682373098,
+        56.35498122013122
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#transportion",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "transportion",
+        "undefined": "transportion"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "12",
+      "superClasses": [
+        "8"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#credit_card",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "credit_card",
+        "undefined": "credit card"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "145",
+      "superClasses": [
+        "88"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Insurance",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Insurance",
+        "undefined": "Insurance"
+      },
+      "subClasses": [
+        "31",
+        "34"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "32",
+      "superClasses": [
+        "9"
+      ],
+      "pos": [
+        519.1286426858292,
+        802.1826058550274
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Buy",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Buy",
+        "undefined": "Buy"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "191",
+      "superClasses": [
+        "18"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Express",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Express",
+        "undefined": "Express"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "123",
+      "superClasses": [
+        "5"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#bus_card",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "bus_card",
+        "undefined": "bus card"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "146",
+      "superClasses": [
+        "88"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Time_interval",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Time_interval",
+        "undefined": "Time interval"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "67",
+      "superClasses": [
+        "17"
+      ],
+      "pos": [
+        1489.9177273709824,
+        167.09968248376703
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#Homecountry_Money",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Homecountry_Money",
+        "undefined": "Homecountry Money"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "79",
+      "superClasses": [
+        "78"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#smart_phone",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "smart_phone",
+        "undefined": "smart phone"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "186",
+      "superClasses": [
+        "83"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#RelationalConcept",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "RelationalConcept",
+        "undefined": "RelationalConcept"
+      },
+      "subClasses": [
+        "41",
+        "43",
+        "45",
+        "47",
+        "49",
+        "28"
+      ],
+      "attributes": [
+        "external"
+      ],
+      "id": "29",
+      "pos": [
+        2053.858079502457,
+        -163.21330329652088
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#ATM",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "ATM",
+        "undefined": "ATM"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "105",
+      "superClasses": [
+        "1"
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/startuplife.xml#visa",
+      "baseIri": "http://www.hozo.jp/rdf/startuplife.xml",
+      "instances": 0,
+      "label": {
+        "IRI-based": "visa",
+        "undefined": "visa"
+      },
+      "attributes": [
+        "external"
+      ],
+      "id": "167",
+      "superClasses": [
+        "89"
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "27",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "30",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "33",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "35",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "38",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "40",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "42",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "44",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "46",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "48",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "50",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "51",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "57",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "59",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "61",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "63",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "72",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "76",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "77",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "90",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "92",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "97",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "102",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "111",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "112",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "113",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "115",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "116",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "117",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "120",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "125",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "126",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "127",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "128",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "129",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "130",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "131",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "133",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "134",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "135",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "136",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "137",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "138",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "139",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "140",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "141",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "142",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "143",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "148",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "149",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "151",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "153",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "154",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "155",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "156",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "157",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "158",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "159",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "160",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "162",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "163",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "164",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "168",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "169",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "170",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "171",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "172",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "173",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "174",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "175",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "176",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "177",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "178",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "179",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "180",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "181",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "183",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "184",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "185",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "187",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "189",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "190",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "192",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "193",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "194",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "195",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "196",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "198",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "199",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "201",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "202",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "203",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "204",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "205",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "206",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "207",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "208",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "209",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "210",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "211",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "212",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "213",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "215",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "216",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "217",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "218",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "219",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "220",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "221",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "222",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "223",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "224",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "225",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "226",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "227",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "228",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "229",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "230",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "231",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "232",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "233",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "234",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "235",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "236",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "237",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "238",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "239",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "240",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "241",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "242",
+      "type": "rdfs:SubClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "range": "29",
+      "domain": "28",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "27",
+      "pos": [
+        1924.7895269607754,
+        -17.291415611930674
+      ]
+    },
+    {
+      "range": "32",
+      "domain": "31",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "30"
+    },
+    {
+      "range": "32",
+      "domain": "34",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "33"
+    },
+    {
+      "range": "37",
+      "domain": "36",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "35"
+    },
+    {
+      "range": "37",
+      "domain": "39",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "38"
+    },
+    {
+      "range": "29",
+      "domain": "41",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "40"
+    },
+    {
+      "range": "29",
+      "domain": "43",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "42",
+      "pos": [
+        1970.3533129005355,
+        69.08563263868031
+      ]
+    },
+    {
+      "range": "29",
+      "domain": "45",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "44"
+    },
+    {
+      "range": "29",
+      "domain": "47",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "46",
+      "pos": [
+        1928.8153607072186,
+        -325.8260548341541
+      ]
+    },
+    {
+      "range": "29",
+      "domain": "49",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "48",
+      "pos": [
+        1979.4294125007623,
+        -326.5375658456778
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_previous",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "14",
+      "label": {
+        "IRI-based": "has_previous",
+        "undefined": "has_previous"
+      },
+      "domain": "43",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "50",
+      "pos": [
+        1695.4656033707258,
+        475.5169506745504
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_belongs",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "9",
+      "label": {
+        "IRI-based": "has_belongs",
+        "undefined": "has_belongs"
+      },
+      "domain": "52",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "51",
+      "pos": [
+        1148.497567774203,
+        969.5736122099595
+      ]
+    },
+    {
+      "range": "1",
+      "domain": "58",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "57"
+    },
+    {
+      "range": "1",
+      "domain": "60",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "59",
+      "pos": [
+        1145.00925673497,
+        1693.710227288659
+      ]
+    },
+    {
+      "range": "20",
+      "domain": "62",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "61",
+      "pos": [
+        1237.1512184471746,
+        -101.43473174916447
+      ]
+    },
+    {
+      "range": "20",
+      "domain": "64",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "63"
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_require",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "9",
+      "label": {
+        "IRI-based": "has_require",
+        "undefined": "has_require"
+      },
+      "domain": "14",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "72",
+      "pos": [
+        1201.7722996772186,
+        800.1802614503915
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_enjoy",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "5",
+      "label": {
+        "IRI-based": "has_enjoy",
+        "undefined": "has_enjoy"
+      },
+      "domain": "14",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "76",
+      "pos": [
+        1544.8993929996836,
+        909.0549837148237
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_result",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "9",
+      "label": {
+        "IRI-based": "has_result",
+        "undefined": "has_result"
+      },
+      "domain": "14",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "77",
+      "pos": [
+        1222.1115245962676,
+        825.0835484202809
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_have_context",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "66",
+      "label": {
+        "IRI-based": "has_have_context",
+        "undefined": "has_have context"
+      },
+      "domain": "52",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "90",
+      "pos": [
+        1536.700515883612,
+        973.8330011767982
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_next",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "14",
+      "label": {
+        "IRI-based": "has_next",
+        "undefined": "has_next"
+      },
+      "domain": "43",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "92",
+      "pos": [
+        1728.9158050709566,
+        503.55399482553673
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_location_at",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "69",
+      "label": {
+        "IRI-based": "has_location_at",
+        "undefined": "has_location at"
+      },
+      "domain": "1",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "97",
+      "pos": [
+        1314.8781871511776,
+        1366.8430317486564
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_provide",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "5",
+      "label": {
+        "IRI-based": "has_provide",
+        "undefined": "has_provide"
+      },
+      "domain": "1",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "102",
+      "pos": [
+        1390.0205881562908,
+        1323.054159979278
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_how_to_achieve",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "68",
+      "label": {
+        "IRI-based": "has_how_to_achieve",
+        "undefined": "has_how to achieve"
+      },
+      "domain": "14",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "111",
+      "pos": [
+        1321.7431957928625,
+        542.2592359105803
+      ]
+    },
+    {
+      "range": "19",
+      "domain": "53",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "112",
+      "pos": [
+        2376.3187433010535,
+        829.1538454448889
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_role",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "17",
+      "label": {
+        "IRI-based": "has_role",
+        "undefined": "has_role"
+      },
+      "domain": "114",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "113",
+      "pos": [
+        1292.9906165021766,
+        279.3970853333717
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_larger",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "17",
+      "label": {
+        "IRI-based": "has_larger",
+        "undefined": "has_larger"
+      },
+      "domain": "28",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "115",
+      "pos": [
+        1630.6479440592793,
+        288.02224515382557
+      ]
+    },
+    {
+      "range": "26",
+      "domain": "25",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "116"
+    },
+    {
+      "range": "75",
+      "domain": "118",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "117"
+    },
+    {
+      "range": "5",
+      "domain": "121",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "120"
+    },
+    {
+      "range": "5",
+      "domain": "24",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "125"
+    },
+    {
+      "range": "75",
+      "domain": "74",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "126"
+    },
+    {
+      "range": "75",
+      "domain": "84",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "127"
+    },
+    {
+      "range": "5",
+      "domain": "4",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "128"
+    },
+    {
+      "range": "5",
+      "domain": "124",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "129"
+    },
+    {
+      "range": "5",
+      "domain": "73",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "130"
+    },
+    {
+      "range": "5",
+      "domain": "107",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "131",
+      "pos": [
+        1722.1856251729682,
+        1312.7999204222092
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_in_activity",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "14",
+      "label": {
+        "IRI-based": "has_in_activity",
+        "undefined": "has_in activity"
+      },
+      "domain": "66",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "133",
+      "pos": [
+        1618.8458170745848,
+        827.4009191293861
+      ]
+    },
+    {
+      "range": "14",
+      "domain": "23",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "134",
+      "pos": [
+        1223.9043757719683,
+        487.54475034557174
+      ]
+    },
+    {
+      "range": "14",
+      "domain": "22",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "135",
+      "pos": [
+        1737.1924506193754,
+        583.7846833303408
+      ]
+    },
+    {
+      "range": "5",
+      "domain": "123",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "136"
+    },
+    {
+      "range": "14",
+      "domain": "13",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "137",
+      "pos": [
+        1748.3511364573278,
+        718.7035025813718
+      ]
+    },
+    {
+      "range": "14",
+      "domain": "19",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "138",
+      "pos": [
+        1843.3621149936612,
+        753.4930687662446
+      ]
+    },
+    {
+      "range": "14",
+      "domain": "21",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "139"
+    },
+    {
+      "range": "14",
+      "domain": "20",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "140",
+      "pos": [
+        1419.6992130186195,
+        384.91278780709126
+      ]
+    },
+    {
+      "range": "14",
+      "domain": "18",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "141",
+      "pos": [
+        1752.9509811771213,
+        643.9759397001641
+      ]
+    },
+    {
+      "range": "14",
+      "domain": "7",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "142",
+      "pos": [
+        1579.4332782753595,
+        963.638823452101
+      ]
+    },
+    {
+      "range": "14",
+      "domain": "3",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "143",
+      "pos": [
+        1718.2138594476419,
+        801.0916859938391
+      ]
+    },
+    {
+      "range": "7",
+      "domain": "81",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "148"
+    },
+    {
+      "range": "89",
+      "domain": "150",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "149"
+    },
+    {
+      "range": "7",
+      "domain": "6",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "151"
+    },
+    {
+      "range": "56",
+      "domain": "55",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "153"
+    },
+    {
+      "range": "56",
+      "domain": "103",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "154"
+    },
+    {
+      "range": "78",
+      "domain": "80",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "155"
+    },
+    {
+      "range": "78",
+      "domain": "79",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "156"
+    },
+    {
+      "range": "17",
+      "domain": "52",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "157",
+      "pos": [
+        1417.9145992274557,
+        734.4568146677454
+      ]
+    },
+    {
+      "range": "17",
+      "domain": "69",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "158",
+      "pos": [
+        1411.423005066913,
+        820.134355998768
+      ]
+    },
+    {
+      "range": "17",
+      "domain": "5",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "159",
+      "pos": [
+        1531.2404573482986,
+        823.4694405411026
+      ]
+    },
+    {
+      "range": "17",
+      "domain": "14",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "160",
+      "pos": [
+        1500.0599004184287,
+        588.0247326203332
+      ]
+    },
+    {
+      "range": "17",
+      "domain": "68",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "162",
+      "pos": [
+        1329.1288757179245,
+        438.70810637193733
+      ]
+    },
+    {
+      "range": "17",
+      "domain": "67",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "163",
+      "pos": [
+        1488.1593460690128,
+        334.76943596518964
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_class",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "17",
+      "label": {
+        "IRI-based": "has_class",
+        "undefined": "has_class"
+      },
+      "domain": "165",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "164",
+      "pos": [
+        1576.4030195864425,
+        190.80387171209745
+      ]
+    },
+    {
+      "range": "17",
+      "domain": "9",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "168",
+      "pos": [
+        1216.9839333137904,
+        737.5559869888264
+      ]
+    },
+    {
+      "range": "88",
+      "domain": "132",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "169"
+    },
+    {
+      "range": "88",
+      "domain": "146",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "170"
+    },
+    {
+      "range": "17",
+      "domain": "66",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "171",
+      "pos": [
+        1605.1868814231998,
+        741.8153759556651
+      ]
+    },
+    {
+      "range": "88",
+      "domain": "147",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "172"
+    },
+    {
+      "range": "65",
+      "domain": "17",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "173"
+    },
+    {
+      "range": "19",
+      "domain": "37",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "174",
+      "pos": [
+        2348.2470518014647,
+        936.8387550257354
+      ]
+    },
+    {
+      "range": "88",
+      "domain": "145",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "175"
+    },
+    {
+      "range": "88",
+      "domain": "144",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "176"
+    },
+    {
+      "range": "53",
+      "domain": "71",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "177"
+    },
+    {
+      "range": "53",
+      "domain": "94",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "178"
+    },
+    {
+      "range": "83",
+      "domain": "161",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "179"
+    },
+    {
+      "range": "53",
+      "domain": "95",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "180"
+    },
+    {
+      "range": "9",
+      "domain": "32",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "181",
+      "pos": [
+        733.3477722731833,
+        887.427695193034
+      ]
+    },
+    {
+      "range": "9",
+      "domain": "83",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "183",
+      "pos": [
+        855.5994426048119,
+        1176.3061254840063
+      ]
+    },
+    {
+      "range": "9",
+      "domain": "89",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "184",
+      "pos": [
+        757.9399630966707,
+        1101.6777889520479
+      ]
+    },
+    {
+      "range": "9",
+      "domain": "75",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "185",
+      "pos": [
+        730.9633842998694,
+        1049.5606665887972
+      ]
+    },
+    {
+      "range": "9",
+      "domain": "78",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "187",
+      "pos": [
+        717.9693516234186,
+        939.9592836458519
+      ]
+    },
+    {
+      "range": "9",
+      "domain": "56",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "189",
+      "pos": [
+        799.1310180351652,
+        1144.3169544176137
+      ]
+    },
+    {
+      "range": "9",
+      "domain": "1",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "190",
+      "pos": [
+        1075.7640641217827,
+        1237.1407064270015
+      ]
+    },
+    {
+      "range": "3",
+      "domain": "87",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "192"
+    },
+    {
+      "range": "3",
+      "domain": "85",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "193"
+    },
+    {
+      "range": "9",
+      "domain": "88",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "194",
+      "pos": [
+        717.0578504786374,
+        994.7257724558558
+      ]
+    },
+    {
+      "range": "9",
+      "domain": "8",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "195",
+      "pos": [
+        766.6770233183827,
+        835.9743751809108
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_destination",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "0",
+      "label": {
+        "IRI-based": "has_destination",
+        "undefined": "has_destination"
+      },
+      "domain": "7",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "196",
+      "pos": [
+        1602.0215776335015,
+        1469.242795554731
+      ]
+    },
+    {
+      "range": "3",
+      "domain": "86",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "198"
+    },
+    {
+      "range": "89",
+      "domain": "167",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "199"
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_during",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "67",
+      "label": {
+        "IRI-based": "has_during",
+        "undefined": "has_during"
+      },
+      "domain": "14",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "201",
+      "pos": [
+        1501.818281720398,
+        420.35497913891066
+      ]
+    },
+    {
+      "range": "3",
+      "domain": "2",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "202"
+    },
+    {
+      "range": "89",
+      "domain": "110",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "203"
+    },
+    {
+      "range": "89",
+      "domain": "101",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "204"
+    },
+    {
+      "range": "89",
+      "domain": "166",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "205"
+    },
+    {
+      "range": "89",
+      "domain": "99",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "206"
+    },
+    {
+      "range": "1",
+      "domain": "104",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "207"
+    },
+    {
+      "range": "1",
+      "domain": "0",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "208",
+      "pos": [
+        1381.4283305845627,
+        1593.2134241611386
+      ]
+    },
+    {
+      "range": "1",
+      "domain": "105",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "209"
+    },
+    {
+      "range": "1",
+      "domain": "70",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "210"
+    },
+    {
+      "range": "60",
+      "domain": "100",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "211"
+    },
+    {
+      "range": "60",
+      "domain": "188",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "212"
+    },
+    {
+      "range": "60",
+      "domain": "200",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "213"
+    },
+    {
+      "range": "8",
+      "domain": "10",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "215"
+    },
+    {
+      "range": "8",
+      "domain": "11",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "216"
+    },
+    {
+      "range": "8",
+      "domain": "12",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "217"
+    },
+    {
+      "range": "13",
+      "domain": "15",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "218"
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_represent",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "1",
+      "label": {
+        "IRI-based": "has_represent",
+        "undefined": "has_represent"
+      },
+      "domain": "69",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "219",
+      "pos": [
+        1247.1346833958823,
+        1337.4772975357441
+      ]
+    },
+    {
+      "range": "13",
+      "domain": "16",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "220"
+    },
+    {
+      "range": "107",
+      "domain": "119",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "221"
+    },
+    {
+      "range": "107",
+      "domain": "106",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "222"
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_happen_at",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "214",
+      "label": {
+        "IRI-based": "has_happen_at",
+        "undefined": "has_happen at"
+      },
+      "domain": "14",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "223",
+      "pos": [
+        1301.5538795101118,
+        702.2114088157344
+      ]
+    },
+    {
+      "range": "22",
+      "domain": "109",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "224"
+    },
+    {
+      "range": "22",
+      "domain": "152",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "225"
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_smaller",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "17",
+      "label": {
+        "IRI-based": "has_smaller",
+        "undefined": "has_smaller"
+      },
+      "domain": "28",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "226",
+      "pos": [
+        1669.8869080009176,
+        319.1429484063454
+      ]
+    },
+    {
+      "range": "22",
+      "domain": "197",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "227"
+    },
+    {
+      "range": "22",
+      "domain": "122",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "228"
+    },
+    {
+      "range": "18",
+      "domain": "91",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "229"
+    },
+    {
+      "range": "18",
+      "domain": "191",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "230"
+    },
+    {
+      "range": "22",
+      "domain": "54",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "231"
+    },
+    {
+      "range": "62",
+      "domain": "98",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "232"
+    },
+    {
+      "range": "18",
+      "domain": "93",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "233"
+    },
+    {
+      "range": "18",
+      "domain": "182",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "234"
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_sub_activity",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "14",
+      "label": {
+        "IRI-based": "has_sub_activity",
+        "undefined": "has_sub activity"
+      },
+      "domain": "68",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "235",
+      "pos": [
+        1357.83777918149,
+        505.1899758992257
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_apply_to",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "9",
+      "label": {
+        "IRI-based": "has_apply_to",
+        "undefined": "has_apply to"
+      },
+      "domain": "14",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "236",
+      "pos": [
+        1238.49485201362,
+        852.798799709608
+      ]
+    },
+    {
+      "range": "23",
+      "domain": "26",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "237",
+      "pos": [
+        734.2080882417408,
+        225.10382281140704
+      ]
+    },
+    {
+      "iri": "http://www.hozo.jp/rdf/has_has_location",
+      "baseIri": "http://www.hozo.jp/rdf",
+      "range": "69",
+      "label": {
+        "IRI-based": "has_has_location",
+        "undefined": "has_has_location"
+      },
+      "domain": "66",
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "id": "238",
+      "pos": [
+        1530.2089217230691,
+        1059.510542507821
+      ]
+    },
+    {
+      "range": "83",
+      "domain": "186",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "239"
+    },
+    {
+      "range": "83",
+      "domain": "82",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "240"
+    },
+    {
+      "range": "23",
+      "domain": "96",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "241",
+      "pos": [
+        828.462943896451,
+        121.37719783322387
+      ]
+    },
+    {
+      "range": "83",
+      "domain": "108",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "242"
+    }
+  ]
+}

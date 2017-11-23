@@ -1,0 +1,1 @@
+print "MAE = {MAE:10.9f}, RMSE = {RMSE:10.9f}".format(**current_error)

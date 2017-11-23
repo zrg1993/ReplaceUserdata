@@ -1,0 +1,33 @@
+{
+    "epochs": 100, 
+    "l_v": [
+        0.0005
+    ], 
+    "name": "initial_experiment", 
+    "decay": 0.0002, 
+    "results": [
+        {
+            "rmse": 1.1835397098939695, 
+            "k": 1, 
+            "iteration": 0, 
+            "mae": 0.929021525432273, 
+            "lrate": 0.0005, 
+            "momentum": 0.5
+        }
+    ], 
+    "batch_size": 10, 
+    "ks": [
+        1
+    ], 
+    "momentums": [
+        0.5, 
+        0.6
+    ], 
+    "l_h": [
+        0.0005
+    ], 
+    "number_hidden": 100, 
+    "l_w": [
+        0.0005
+    ]
+}
